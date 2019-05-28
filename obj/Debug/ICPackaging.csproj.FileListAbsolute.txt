@@ -1,0 +1,10 @@
+C:\Users\ADG\source\repos\ICPackaging\ICPackaging\bin\Debug\ICPackaging.exe.config
+C:\Users\ADG\source\repos\ICPackaging\ICPackaging\bin\Debug\ICPackaging.exe
+C:\Users\ADG\source\repos\ICPackaging\ICPackaging\bin\Debug\ICPackaging.pdb
+C:\Users\ADG\source\repos\ICPackaging\ICPackaging\obj\Debug\ICPackaging.ICPackaging.resources
+C:\Users\ADG\source\repos\ICPackaging\ICPackaging\obj\Debug\ICPackaging.Properties.Resources.resources
+C:\Users\ADG\source\repos\ICPackaging\ICPackaging\obj\Debug\ICPackaging.csproj.GenerateResource.cache
+C:\Users\ADG\source\repos\ICPackaging\ICPackaging\obj\Debug\ICPackaging.csproj.CoreCompileInputs.cache
+C:\Users\ADG\source\repos\ICPackaging\ICPackaging\obj\Debug\ICPackaging.exe
+C:\Users\ADG\source\repos\ICPackaging\ICPackaging\obj\Debug\ICPackaging.pdb
+C:\Users\ADG\source\repos\ICPackaging\ICPackaging\obj\Debug\ICPackaging.csprojAssemblyReference.cache
