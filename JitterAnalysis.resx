@@ -117,10 +117,10 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="treeNode69.ToolTipText" xml:space="preserve">
+  <data name="treeNode27.ToolTipText" xml:space="preserve">
     <value>Is a type of DJ, it causes bounded uncorrelated jitter (BUJ). It can be correlated to nearby data however it is not correlated to itself, hence bounded but uncorrelated type of jitter.  It can  be a significant source of jitter in high speed subsystems.</value>
   </data>
-  <data name="treeNode72.ToolTipText" xml:space="preserve">
+  <data name="treeNode30.ToolTipText" xml:space="preserve">
     <value>Express as a normal distribution, shows up in the tails of the jitter distribution and utilized to budget peak to peak jitter as a function of BER. If BER decreases, the amount of RJ(in terms of xstd Dev increases)</value>
   </data>
 </root>

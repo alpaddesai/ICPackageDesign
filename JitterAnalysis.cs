@@ -60,5 +60,20 @@ namespace ICPackaging
         {
             MessageBox.Show("The probability of receiving erroneous bit which is known a the bit error rate (BER) or bit error ratio. The BER is the ratio of the # of erroneous received bits to the total # of transmitted bits over a long interval", "Bit Error Rate");
         }
+
+        private void PictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void EETimes_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://www.eetimes.com/author.asp?section_id=36&doc_id=1319954");
+        }
     }
 }

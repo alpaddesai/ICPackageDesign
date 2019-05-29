@@ -8,3 +8,4 @@ C:\Users\ADG\source\repos\ICPackaging\ICPackaging\obj\Debug\ICPackaging.csproj.C
 C:\Users\ADG\source\repos\ICPackaging\ICPackaging\obj\Debug\ICPackaging.exe
 C:\Users\ADG\source\repos\ICPackaging\ICPackaging\obj\Debug\ICPackaging.pdb
 C:\Users\ADG\source\repos\ICPackaging\ICPackaging\obj\Debug\ICPackaging.csprojAssemblyReference.cache
+C:\Users\ADG\source\repos\ICPackaging\ICPackaging\obj\Debug\ICPackaging.JitterAnalysis.resources
