@@ -29,38 +29,38 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ICPackaging));
-            System.Windows.Forms.TreeNode treeNode73 = new System.Windows.Forms.TreeNode("Ad-hoc Testing");
-            System.Windows.Forms.TreeNode treeNode74 = new System.Windows.Forms.TreeNode("Serial and Parallel Scan test");
-            System.Windows.Forms.TreeNode treeNode75 = new System.Windows.Forms.TreeNode("Boundary Scan");
-            System.Windows.Forms.TreeNode treeNode76 = new System.Windows.Forms.TreeNode("Built in Self Test");
-            System.Windows.Forms.TreeNode treeNode77 = new System.Windows.Forms.TreeNode("Design for Testability", new System.Windows.Forms.TreeNode[] {
-            treeNode73,
-            treeNode74,
-            treeNode75,
-            treeNode76});
-            System.Windows.Forms.TreeNode treeNode78 = new System.Windows.Forms.TreeNode("Optimize Physical Layout");
-            System.Windows.Forms.TreeNode treeNode79 = new System.Windows.Forms.TreeNode("Minimize power dissipation");
-            System.Windows.Forms.TreeNode treeNode80 = new System.Windows.Forms.TreeNode("Introduce redundant hardware for ex an extra memory chip");
-            System.Windows.Forms.TreeNode treeNode81 = new System.Windows.Forms.TreeNode("Modelling process variations");
-            System.Windows.Forms.TreeNode treeNode82 = new System.Windows.Forms.TreeNode("Yield Analysis");
-            System.Windows.Forms.TreeNode treeNode83 = new System.Windows.Forms.TreeNode("Design for Manufacturability", new System.Windows.Forms.TreeNode[] {
-            treeNode78,
-            treeNode79,
-            treeNode80,
-            treeNode81,
-            treeNode82});
-            System.Windows.Forms.TreeNode treeNode84 = new System.Windows.Forms.TreeNode("Probe Card");
-            System.Windows.Forms.TreeNode treeNode85 = new System.Windows.Forms.TreeNode("Probe Test", new System.Windows.Forms.TreeNode[] {
-            treeNode84});
-            System.Windows.Forms.TreeNode treeNode86 = new System.Windows.Forms.TreeNode("Wafer Level Testing");
-            System.Windows.Forms.TreeNode treeNode87 = new System.Windows.Forms.TreeNode("Package Level Testing");
-            System.Windows.Forms.TreeNode treeNode88 = new System.Windows.Forms.TreeNode("Board Level Testing");
-            System.Windows.Forms.TreeNode treeNode89 = new System.Windows.Forms.TreeNode("System Level Testing");
-            System.Windows.Forms.TreeNode treeNode90 = new System.Windows.Forms.TreeNode("Economics of Testing", new System.Windows.Forms.TreeNode[] {
-            treeNode86,
-            treeNode87,
-            treeNode88,
-            treeNode89});
+            System.Windows.Forms.TreeNode treeNode37 = new System.Windows.Forms.TreeNode("Ad-hoc Testing");
+            System.Windows.Forms.TreeNode treeNode38 = new System.Windows.Forms.TreeNode("Serial and Parallel Scan test");
+            System.Windows.Forms.TreeNode treeNode39 = new System.Windows.Forms.TreeNode("Boundary Scan");
+            System.Windows.Forms.TreeNode treeNode40 = new System.Windows.Forms.TreeNode("Built in Self Test");
+            System.Windows.Forms.TreeNode treeNode41 = new System.Windows.Forms.TreeNode("Design for Testability", new System.Windows.Forms.TreeNode[] {
+            treeNode37,
+            treeNode38,
+            treeNode39,
+            treeNode40});
+            System.Windows.Forms.TreeNode treeNode42 = new System.Windows.Forms.TreeNode("Optimize Physical Layout");
+            System.Windows.Forms.TreeNode treeNode43 = new System.Windows.Forms.TreeNode("Minimize power dissipation");
+            System.Windows.Forms.TreeNode treeNode44 = new System.Windows.Forms.TreeNode("Introduce redundant hardware for ex an extra memory chip");
+            System.Windows.Forms.TreeNode treeNode45 = new System.Windows.Forms.TreeNode("Modelling process variations");
+            System.Windows.Forms.TreeNode treeNode46 = new System.Windows.Forms.TreeNode("Yield Analysis");
+            System.Windows.Forms.TreeNode treeNode47 = new System.Windows.Forms.TreeNode("Design for Manufacturability", new System.Windows.Forms.TreeNode[] {
+            treeNode42,
+            treeNode43,
+            treeNode44,
+            treeNode45,
+            treeNode46});
+            System.Windows.Forms.TreeNode treeNode48 = new System.Windows.Forms.TreeNode("Probe Card");
+            System.Windows.Forms.TreeNode treeNode49 = new System.Windows.Forms.TreeNode("Probe Test", new System.Windows.Forms.TreeNode[] {
+            treeNode48});
+            System.Windows.Forms.TreeNode treeNode50 = new System.Windows.Forms.TreeNode("Wafer Level Testing");
+            System.Windows.Forms.TreeNode treeNode51 = new System.Windows.Forms.TreeNode("Package Level Testing");
+            System.Windows.Forms.TreeNode treeNode52 = new System.Windows.Forms.TreeNode("Board Level Testing");
+            System.Windows.Forms.TreeNode treeNode53 = new System.Windows.Forms.TreeNode("System Level Testing");
+            System.Windows.Forms.TreeNode treeNode54 = new System.Windows.Forms.TreeNode("Economics of Testing", new System.Windows.Forms.TreeNode[] {
+            treeNode50,
+            treeNode51,
+            treeNode52,
+            treeNode53});
             this.label1 = new System.Windows.Forms.Label();
             this.FlipChipPackage = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -99,7 +99,7 @@
             this.label12 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
-            this.pictureBox9 = new System.Windows.Forms.PictureBox();
+            this.JitterAnalysis = new System.Windows.Forms.Button();
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
@@ -107,7 +107,7 @@
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
+            this.pictureBox9 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
@@ -115,6 +115,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -214,12 +215,12 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.label5.Location = new System.Drawing.Point(481, 622);
+            this.label5.Location = new System.Drawing.Point(204, 645);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(562, 17);
+            this.label5.Size = new System.Drawing.Size(839, 17);
             this.label5.TabIndex = 12;
             this.label5.Text = "Reference: Custom images; C# How to program Dietel; VLSI Design by Debaprasad Das" +
-    "";
+    ", High Speed Digital Design by Stephen Hall";
             this.label5.Click += new System.EventHandler(this.Label5_Click);
             // 
             // CharacteristicImp
@@ -400,67 +401,67 @@
             this.treeView2.HideSelection = false;
             this.treeView2.Location = new System.Drawing.Point(1199, 32);
             this.treeView2.Name = "treeView2";
-            treeNode73.Name = "Adhoc";
-            treeNode73.Text = "Ad-hoc Testing";
-            treeNode73.ToolTipText = "Combination of simple test strategies";
-            treeNode74.Name = "SPScanTest";
-            treeNode74.Text = "Serial and Parallel Scan test";
-            treeNode74.ToolTipText = "Level sensitive scan design test";
-            treeNode75.Name = "BoundaryScan";
-            treeNode75.Text = "Boundary Scan";
-            treeNode75.ToolTipText = "Board level testing methodology";
-            treeNode76.Name = "BuiltInSelfTest";
-            treeNode76.Text = "Built in Self Test";
-            treeNode76.ToolTipText = "In BIST, a test logic ckt is included in the chip. The extra ckt generates test p" +
+            treeNode37.Name = "Adhoc";
+            treeNode37.Text = "Ad-hoc Testing";
+            treeNode37.ToolTipText = "Combination of simple test strategies";
+            treeNode38.Name = "SPScanTest";
+            treeNode38.Text = "Serial and Parallel Scan test";
+            treeNode38.ToolTipText = "Level sensitive scan design test";
+            treeNode39.Name = "BoundaryScan";
+            treeNode39.Text = "Boundary Scan";
+            treeNode39.ToolTipText = "Board level testing methodology";
+            treeNode40.Name = "BuiltInSelfTest";
+            treeNode40.Text = "Built in Self Test";
+            treeNode40.ToolTipText = "In BIST, a test logic ckt is included in the chip. The extra ckt generates test p" +
     "atterns, applies them to the inputs and tests the ckts.";
-            treeNode77.Name = "DFT";
-            treeNode77.Text = "Design for Testability";
-            treeNode77.ToolTipText = "The overhead of introducing extra circuitry in the chip for DFT greatly impacts t" +
+            treeNode41.Name = "DFT";
+            treeNode41.Text = "Design for Testability";
+            treeNode41.ToolTipText = "The overhead of introducing extra circuitry in the chip for DFT greatly impacts t" +
     "he cost of manufacturing and test";
-            treeNode78.Name = "Optimize";
-            treeNode78.Text = "Optimize Physical Layout";
-            treeNode78.ToolTipText = "Optimize the layout to reduce defects";
-            treeNode79.Name = "MinimizePower";
-            treeNode79.Text = "Minimize power dissipation";
-            treeNode79.ToolTipText = "It improves the yield of the chip since excess power dissipation in a chip can ac" +
+            treeNode42.Name = "Optimize";
+            treeNode42.Text = "Optimize Physical Layout";
+            treeNode42.ToolTipText = "Optimize the layout to reduce defects";
+            treeNode43.Name = "MinimizePower";
+            treeNode43.Text = "Minimize power dissipation";
+            treeNode43.ToolTipText = "It improves the yield of the chip since excess power dissipation in a chip can ac" +
     "celerate degradations due to reliability issues";
-            treeNode80.Name = "Introduce";
-            treeNode80.Text = "Introduce redundant hardware for ex an extra memory chip";
-            treeNode80.ToolTipText = "For example extra memory chip array";
-            treeNode81.Name = "WideProcessModelling";
-            treeNode81.Text = "Modelling process variations";
-            treeNode81.ToolTipText = "Methods to improve the yield";
-            treeNode82.Name = "Yield";
-            treeNode82.Text = "Yield Analysis";
-            treeNode82.ToolTipText = "Having a high yield is very important for high volume manufacturing";
-            treeNode83.Name = "DFM";
-            treeNode83.Text = "Design for Manufacturability";
-            treeNode83.ToolTipText = "The ckt should be designed so that the yield of the manufactured chip is high";
-            treeNode84.Name = "ProbeCard";
-            treeNode84.Text = "Probe Card";
-            treeNode84.ToolTipText = resources.GetString("treeNode84.ToolTipText");
-            treeNode85.Name = "ProbeTest";
-            treeNode85.Text = "Probe Test";
-            treeNode85.ToolTipText = "Testing the individual die at the wafer level is called probe test";
-            treeNode86.Name = "Wafer";
-            treeNode86.Text = "Wafer Level Testing";
-            treeNode86.ToolTipText = "Cost is $ 0.01 to 0.1";
-            treeNode87.Name = "PackageLevel";
-            treeNode87.Text = "Package Level Testing";
-            treeNode87.ToolTipText = "Cost is $0.1 to 1";
-            treeNode88.Name = "Board";
-            treeNode88.Text = "Board Level Testing";
-            treeNode88.ToolTipText = "$1-10";
-            treeNode89.Name = "SystemTesting";
-            treeNode89.Text = "System Level Testing";
-            treeNode89.ToolTipText = "$10-100";
-            treeNode90.Name = "EconTesting";
-            treeNode90.Text = "Economics of Testing";
+            treeNode44.Name = "Introduce";
+            treeNode44.Text = "Introduce redundant hardware for ex an extra memory chip";
+            treeNode44.ToolTipText = "For example extra memory chip array";
+            treeNode45.Name = "WideProcessModelling";
+            treeNode45.Text = "Modelling process variations";
+            treeNode45.ToolTipText = "Methods to improve the yield";
+            treeNode46.Name = "Yield";
+            treeNode46.Text = "Yield Analysis";
+            treeNode46.ToolTipText = "Having a high yield is very important for high volume manufacturing";
+            treeNode47.Name = "DFM";
+            treeNode47.Text = "Design for Manufacturability";
+            treeNode47.ToolTipText = "The ckt should be designed so that the yield of the manufactured chip is high";
+            treeNode48.Name = "ProbeCard";
+            treeNode48.Text = "Probe Card";
+            treeNode48.ToolTipText = resources.GetString("treeNode48.ToolTipText");
+            treeNode49.Name = "ProbeTest";
+            treeNode49.Text = "Probe Test";
+            treeNode49.ToolTipText = "Testing the individual die at the wafer level is called probe test";
+            treeNode50.Name = "Wafer";
+            treeNode50.Text = "Wafer Level Testing";
+            treeNode50.ToolTipText = "Cost is $ 0.01 to 0.1";
+            treeNode51.Name = "PackageLevel";
+            treeNode51.Text = "Package Level Testing";
+            treeNode51.ToolTipText = "Cost is $0.1 to 1";
+            treeNode52.Name = "Board";
+            treeNode52.Text = "Board Level Testing";
+            treeNode52.ToolTipText = "$1-10";
+            treeNode53.Name = "SystemTesting";
+            treeNode53.Text = "System Level Testing";
+            treeNode53.ToolTipText = "$10-100";
+            treeNode54.Name = "EconTesting";
+            treeNode54.Text = "Economics of Testing";
             this.treeView2.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
-            treeNode77,
-            treeNode83,
-            treeNode85,
-            treeNode90});
+            treeNode41,
+            treeNode47,
+            treeNode49,
+            treeNode54});
             this.treeView2.ShowNodeToolTips = true;
             this.treeView2.Size = new System.Drawing.Size(162, 140);
             this.treeView2.TabIndex = 31;
@@ -567,16 +568,15 @@
             this.label14.TabIndex = 53;
             this.label14.Text = "Insertion Loss Budget";
             // 
-            // pictureBox9
+            // JitterAnalysis
             // 
-            this.pictureBox9.ErrorImage = null;
-            this.pictureBox9.Image = global::ICPackaging.Properties.Resources.InsertionLossBudget1;
-            this.pictureBox9.InitialImage = global::ICPackaging.Properties.Resources.Waveform;
-            this.pictureBox9.Location = new System.Drawing.Point(1049, 379);
-            this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(297, 283);
-            this.pictureBox9.TabIndex = 52;
-            this.pictureBox9.TabStop = false;
+            this.JitterAnalysis.Location = new System.Drawing.Point(787, 587);
+            this.JitterAnalysis.Name = "JitterAnalysis";
+            this.JitterAnalysis.Size = new System.Drawing.Size(177, 23);
+            this.JitterAnalysis.TabIndex = 55;
+            this.JitterAnalysis.Text = "Jitter Analysis GUI";
+            this.JitterAnalysis.UseVisualStyleBackColor = true;
+            this.JitterAnalysis.Click += new System.EventHandler(this.JitterAnalysis_Click);
             // 
             // pictureBox8
             // 
@@ -655,12 +655,23 @@
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.PictureBox1_Click);
             // 
+            // pictureBox9
+            // 
+            this.pictureBox9.ErrorImage = null;
+            this.pictureBox9.Image = global::ICPackaging.Properties.Resources.InsertionLossBudget1;
+            this.pictureBox9.InitialImage = global::ICPackaging.Properties.Resources.Waveform;
+            this.pictureBox9.Location = new System.Drawing.Point(1049, 379);
+            this.pictureBox9.Name = "pictureBox9";
+            this.pictureBox9.Size = new System.Drawing.Size(297, 283);
+            this.pictureBox9.TabIndex = 52;
+            this.pictureBox9.TabStop = false;
+            // 
             // ICPackaging
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.AutoScroll = true;
             this.ClientSize = new System.Drawing.Size(1429, 665);
+            this.Controls.Add(this.JitterAnalysis);
             this.Controls.Add(this.label14);
             this.Controls.Add(this.label13);
             this.Controls.Add(this.pictureBox8);
@@ -707,11 +718,11 @@
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.pictureBox9);
+            this.IsMdiContainer = true;
             this.MaximumSize = new System.Drawing.Size(1445, 720);
             this.Name = "ICPackaging";
             this.Text = " ";
             this.Load += new System.EventHandler(this.ICPackaging_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
@@ -719,6 +730,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -772,6 +784,7 @@
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.PictureBox pictureBox9;
         private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.Button JitterAnalysis;
     }
 }
 

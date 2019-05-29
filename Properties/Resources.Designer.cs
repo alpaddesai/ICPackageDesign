@@ -93,6 +93,36 @@ namespace ICPackaging.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap DefaultChannel {
+            get {
+                object obj = ResourceManager.GetObject("DefaultChannel", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap DefaultChannel1 {
+            get {
+                object obj = ResourceManager.GetObject("DefaultChannel1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap FIRWaveform {
+            get {
+                object obj = ResourceManager.GetObject("FIRWaveform", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Image10 {
             get {
                 object obj = ResourceManager.GetObject("Image10", resourceCulture);
@@ -166,6 +196,46 @@ namespace ICPackaging.Properties {
         internal static System.Drawing.Bitmap InsertionLossBudget1 {
             get {
                 object obj = ResourceManager.GetObject("InsertionLossBudget1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Jitter1 {
+            get {
+                object obj = ResourceManager.GetObject("Jitter1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Jitter2 {
+            get {
+                object obj = ResourceManager.GetObject("Jitter2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Jitter3 {
+            get {
+                object obj = ResourceManager.GetObject("Jitter3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Jitter4 {
+            get {
+                object obj = ResourceManager.GetObject("Jitter4", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -124,7 +124,7 @@ to the substrate using conductive bumps on the chip bond
 pads. It can have a large number of pin-count within a small 
 die and package area.</value>
   </data>
-  <data name="treeNode84.ToolTipText" xml:space="preserve">
+  <data name="treeNode48.ToolTipText" xml:space="preserve">
     <value>Is a PCB designed to match the bonding pad geometry of each die and connect it to the test equipment.It has thin metal probes for making the connections between the card's circuit and the die bonding pads</value>
   </data>
   <data name="label10.Text" xml:space="preserve">

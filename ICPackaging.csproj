@@ -52,10 +52,19 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="JitterAnalysis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JitterAnalysis.Designer.cs">
+      <DependentUpon>JitterAnalysis.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JitterAnalysis.resx">
+      <DependentUpon>JitterAnalysis.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -124,6 +133,27 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\ViaSimulation1.jpg1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DefaultChannel.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DefaultChannel1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FIRWaveform.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Jitter1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Jitter2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Jitter3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Jitter4.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

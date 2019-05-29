@@ -203,7 +203,7 @@ namespace ICPackaging
 
         private void DiscreteLinear_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("The architecture consists of the transversal filter also known as the finite impulse response(FIR) filter. The Precursor taps have negative coefficients that compensate for phase distortion induced by dispersion it requires only a single tap.Postcursor tap have positive coefficient that compensate for ISI caused by amplitude distortion and may require multiple taps", "Discrete Linear Equalizers");
+            MessageBox.Show("The architecture consists of the transversal filter also known as the finite impulse response(FIR) filter. The Precursor taps have negative coefficients that compensate for phase distortion induced by dispersion it requires only a single tap.Postcursor taps have positive coefficient that compensate for ISI caused by amplitude distortion and may require multiple taps", "Discrete Linear Equalizers");
         }
 
         private void Label10_Click(object sender, EventArgs e)
@@ -213,7 +213,7 @@ namespace ICPackaging
 
         private void ChannelSim_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("The differential transmitter with 6db de-emphasis does include minimal jitter parameters. The bit rate is 5Gbps with an amplitude of +/-0.8v. The transmission path is a tightly coupled differential trace, the substrate has a dielectric value of 3.4 and a ground reference on either side with a 9 mil height. The length of the transmission path is 1.6inch at the receiver end and equalization is enabled.  Jitter is not included on the receiver side.  Adding a 2pF capacitance on either side of the transmitter and receiver would display a realistic parasitic capacitance on the channel link ", "Channel Simulation");
+            MessageBox.Show("The differential transmitter with 6db de-emphasis does include minimal jitter parameters. The bit rate is 5Gbps with an amplitude of +/-0.8v. The transmission path is a tightly coupled differential trace, the substrate has a dielectric value of 3.4 and a ground reference on either side with a 9 mil height. The length of the transmission path is 1.6inch at the receiver end and equalization is enabled.  Jitter is not included on the receiver side.  Adding a 2pF capacitance on either side of the transmitter and receiver would display a realistic parasitic capacitance on the channel link. There are limitations with ADS includes modeling stackup manufacturing  tolerances and thermal implications, hence a 3D FEM tool is required ", "Channel Simulation");
 
         }
 
@@ -226,6 +226,13 @@ namespace ICPackaging
         private void PictureBox8_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void JitterAnalysis_Click(object sender, EventArgs e)
+        {
+
+            JitterAnalysis obj = new JitterAnalysis();
+            obj.Show();
         }
     }
 }

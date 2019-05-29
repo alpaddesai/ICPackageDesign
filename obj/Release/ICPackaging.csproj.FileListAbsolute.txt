@@ -1,0 +1,11 @@
+C:\Users\ADG\source\repos\ICPackaging\ICPackaging\bin\Release\ICPackaging.exe.config
+C:\Users\ADG\source\repos\ICPackaging\ICPackaging\bin\Release\ICPackaging.exe
+C:\Users\ADG\source\repos\ICPackaging\ICPackaging\bin\Release\ICPackaging.pdb
+C:\Users\ADG\source\repos\ICPackaging\ICPackaging\obj\Release\ICPackaging.ICPackaging.resources
+C:\Users\ADG\source\repos\ICPackaging\ICPackaging\obj\Release\ICPackaging.JitterAnalysis.resources
+C:\Users\ADG\source\repos\ICPackaging\ICPackaging\obj\Release\ICPackaging.Properties.Resources.resources
+C:\Users\ADG\source\repos\ICPackaging\ICPackaging\obj\Release\ICPackaging.csproj.GenerateResource.cache
+C:\Users\ADG\source\repos\ICPackaging\ICPackaging\obj\Release\ICPackaging.csproj.CoreCompileInputs.cache
+C:\Users\ADG\source\repos\ICPackaging\ICPackaging\obj\Release\ICPackaging.exe
+C:\Users\ADG\source\repos\ICPackaging\ICPackaging\obj\Release\ICPackaging.pdb
+C:\Users\ADG\source\repos\ICPackaging\ICPackaging\obj\Release\ICPackaging.csprojAssemblyReference.cache
