@@ -3,6 +3,9 @@
 The project provides a graphical user interface displaying technical knowledge ranging from IC package design to board design. 
 To download the executable please click on https://github.com/alpaddesai/ICPackageDesign/releases
 
+Company confidential information is not displayed. All images are either custom by Alpa D Desai or a reference name is included.Most of the images are custom. Copyright protection in process.
+
+
 ![Image of the IC Package Design](ICPackageGUIImage.jpg) 
 
 ![Image of the Jitter Graphical User Interface](JitterGUI.jpg)
