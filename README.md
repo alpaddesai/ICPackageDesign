@@ -10,3 +10,5 @@ Company confidential information is not displayed. All images are either custom 
 
 ![Image of the Jitter Graphical User Interface](JitterGUI.jpg)
 
+![Image](RahsoftADScertificate.jpg)
+
