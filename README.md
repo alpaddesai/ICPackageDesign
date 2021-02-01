@@ -12,3 +12,4 @@ Company confidential information is not displayed. All images are either custom 
 
 ![Image](RahsoftADScertificate.jpg)
 
+Addiitional reference: https://github.com/alpaddesai/SmartGridDesignIdea
