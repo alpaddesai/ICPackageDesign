@@ -15,4 +15,4 @@ Company confidential information is not displayed. All images are either custom 
 ## Interest
 ![image](image.png)
 
-Addiitional reference: https://github.com/alpaddesai/SmartGridDesignIdea
+Addiitional reference: https://github.com/alpaddesai/SmartGridDesignIdea and https://github.com/alpaddesai/RealEstatePortfolioIdea
