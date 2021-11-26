@@ -16,4 +16,4 @@ Company confidential information is not displayed. All images are either custom 
 ![image](image.png)
 ![image](image1.png)
 
-Addiitional reference: https://github.com/alpaddesai/MSEE_SmartGridDesignIdea and https://github.com/alpaddesai/RealEstatePortfolioIdea
+Addiitional reference: https://github.com/alpaddesai/SmartGridDesignIdea and https://github.com/alpaddesai/RealEstatePortfolioIdea
