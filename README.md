@@ -15,4 +15,4 @@ Company confidential information is not displayed. All images are either custom 
 
 ![image](Ethics.jpg)
 
-Addiitional reference: https://github.com/alpaddesai/SmartGridDesignIdea 
+Addiitional reference: https://github.com/alpaddesai/TechnicalProjectManagement2022
